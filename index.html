@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#2c4a24">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>끝없는 숲 수호대</title>
+  <style>
+    @font-face {
+      font-family: 'Jua';
+      src: url('assets/fonts/jua-subset.woff') format('woff');
+      font-display: block;
+    }
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #2c4a24;
+      overflow: hidden;
+      overscroll-behavior: none;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    #game {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      touch-action: none;
+    }
+    #boot {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      color: #fff3c4;
+      font: 28px 'Jua', sans-serif;
+      background: #2c4a24;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="boot">끝없는 숲 수호대</div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
