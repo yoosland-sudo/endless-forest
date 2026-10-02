@@ -1,0 +1,5 @@
+docs/
+tests/snaps/
+node_modules/
+__pycache__/
+.claude/
